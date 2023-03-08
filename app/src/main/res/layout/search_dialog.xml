@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/background_search"
+    android:padding="8dp"
+    android:backgroundDimEnabled="false">
+    <EditText
+        android:id="@+id/et_location"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:hint="City Name"
+        android:textSize="18dp"
+        android:padding="8dp"
+        android:background="@android:color/transparent">
+    </EditText>
+    <ImageButton
+        android:id="@+id/btn_search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:src="@drawable/baseline_search_24"
+        android:background="@android:color/transparent">
+    </ImageButton>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+    <string name="app_title">MyWeather</string>
+    <string name="weather_url">https://api.openweathermap.org/</string>
+    <string name="weather_app_id">1e30b2cde7f5aca2e8338384e9807894</string>
+    <string name="weather_seoul_id">1835848</string>
+</resources>
